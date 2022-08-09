@@ -1,0 +1,2 @@
+# CamCalibration
+The UAV carries a separate camera (Go Pro Hero 4 Session) to take HD photos of the desired target. Due to the fish eye lens of the camera, the resulting image is distorted resulting in straight lines appearing curved which will cause errors when finding the centroid (in reference to the image frame) of the desired target. To counter this, the camera characteristics and distortion coefficients had to be found in order to undistort the captured image for further processing.
